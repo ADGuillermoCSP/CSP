@@ -1,0 +1,1 @@
+print("“Una nueva palabra es como una nueva especie: no puede ser forzada, debe surgir.” (Tractatus Logico-Philosophicus, 5.6)")
