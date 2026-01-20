@@ -16,6 +16,8 @@ def buscar_pokemon(nombre: str) -> Optional[Dict]:
         nombre (str): Nombre o ID del Pokémon.
     Returns:
         dict | None: Datos del Pokémon o None si no se encuentra.
+    Raises:
+        Maneja internamente HTTPError y RequestException, devolviendo None en caso de fallo.
     """
     # Construimos la URL normalizando el nombre a minúsculas
     url = f"https://pokeapi.co/api/v2/pokemon/{nombre.lower()}"
