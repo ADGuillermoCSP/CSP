@@ -1,4 +1,4 @@
-from app.colores import MAGENTA, RESET, CIAN
+from pokedex.app.colores import MAGENTA, RESET, CIAN
 
 
 def mostrar_menu() -> None:

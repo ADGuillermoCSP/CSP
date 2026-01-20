@@ -6,7 +6,7 @@ from requests import RequestException
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from app.funciones import cargar_favoritos, guardar_favorito, eliminar_favorito, buscar_pokemon
+from pokedex.app.funciones import cargar_favoritos, guardar_favorito, eliminar_favorito, buscar_pokemon
 
 RUTA_TEST = "data/favoritos.json"
 

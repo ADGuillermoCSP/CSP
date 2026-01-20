@@ -3,7 +3,7 @@ from typing import Optional, Dict, List
 
 import requests
 
-from app.colores import ROJO, RESET, VERDE, AMARILLO
+from pokedex.app.colores import ROJO, RESET, VERDE, AMARILLO
 
 # Ruta donde se guardan los Pokémon favoritos
 RUTA_FAVORITOS = "data/favoritos.json"
